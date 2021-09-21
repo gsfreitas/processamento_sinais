@@ -41,3 +41,8 @@ O gráfico da TF, o áudio ainda apresenta frequências de até aproximadamente 
 - numpy
 - scipy
 - matplotlib
+
+## Autor
+Gabriel Freitas
+
+www.linkedin.com/in/gabrielsfreitas
