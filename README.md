@@ -37,3 +37,7 @@ O gráfico da TF, o áudio ainda apresenta frequências de até aproximadamente 
   
   Pela magnitude percebe-se então que o número digitado é zero. O processo se repete para todos os outros dígitos até formar o número discado em si.
   
+## Bibliotecas
+- numpy
+- scipy
+- matplotlib
