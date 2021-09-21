@@ -2,8 +2,6 @@
 
 ## Sobre o projeto
 
-Link para o código completo: https://colab.research.google.com/drive/1J4eYGSXdJpbj8Uc23sRatBTA19cCjDez?usp=sharing
-
 O projeto de processamento de sinais consiste na aplicação de filtros para determinar o número digitado em um smartphone através do áudio de cada botão. Além de determinar o número que foi digitado, um dos objetivos era eliminar os ruídos do áudio para captar somente as frequências de interesse.
 
 ![Sinal original](https://user-images.githubusercontent.com/83102320/134104379-a92d6d90-dde2-4d9d-871b-64d2d740a2a9.JPG)
