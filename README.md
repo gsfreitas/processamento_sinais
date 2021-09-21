@@ -2,6 +2,8 @@
 
 ## Sobre o projeto
 
+Link para o código completo: https://colab.research.google.com/drive/1J4eYGSXdJpbj8Uc23sRatBTA19cCjDez?usp=sharing
+
 O projeto de processamento de sinais consiste na aplicação de filtros para determinar o número digitado em um smartphone através do áudio de cada botão. Além de determinar o número que foi digitado, um dos objetivos era eliminar os ruídos do áudio para captar somente as frequências de interesse.
 
 ![Sinal original](https://user-images.githubusercontent.com/83102320/134104379-a92d6d90-dde2-4d9d-871b-64d2d740a2a9.JPG)
@@ -31,4 +33,7 @@ O gráfico da TF, o áudio ainda apresenta frequências de até aproximadamente 
 
   Após todo o processo de filtragem mostrado anteriormente pudemos analisar e encontrar oito picos em instantes distintos. Esses picos mostram exatamente quais foram as teclas discadas, podendo relacionar diretamente ao tempo, onde há oito picos. A janela do tipo Hanning então foi aplicada no sinal filtrado para evitar cortes abruptos e fazer com que haja uma transição mais suave entre as frequências de rejeição e as bandas de passagem. Em seguida, para cada sinal amostrado foi feita a transformada de Fourier para analisá-los no domínio da frequência.
   
+  ![FreqFinal](https://user-images.githubusercontent.com/83102320/134106669-135b7f38-0044-4475-96e8-ab7286b82ffe.JPG)
+  
+  Pela magnitude percebe-se então que o número digitado é zero. O processo se repete para todos os outros dígitos até formar o número discado em si.
   
