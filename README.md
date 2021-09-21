@@ -18,3 +18,10 @@ O sinal original foi lido e armazenado em uma variável para facilitar toda a an
 ![Sinal filtrado](https://user-images.githubusercontent.com/83102320/134105608-84424418-3b38-46c4-b73a-f4c9e029ca75.JPG)
 
 O gráfico da TF, o áudio ainda apresenta frequências de até aproximadamente 8000 Hz. Porém, as frequências dos dígitos encontram-se entre 500Hz e 1500Hz. Foi utilizado um filtro FIR com janela Kaiser (beta igual a 12) e de um segundo filtro FIR com janela Hamming para remover as frequências menores que 600 e entre 1000 e 1100 Hz. Os filtros escolhidos foram evidenciados a seguir, assim como o sinal filtrado.
+
+![Janelamento II](https://user-images.githubusercontent.com/83102320/134105967-c00358d9-4e81-4827-be71-4add6d31468d.JPG)
+![Janelamento](https://user-images.githubusercontent.com/83102320/134105972-9b1a38b6-bd05-4b24-bbcc-ae8d4c72585c.JPG)
+
+  O filtro Chebyshev foi utilizado por possuir melhor declive na banda de transição e eficiência na linearização da fase. Já a janela Kaiser foi usada por conseguir especificar os parâmetros do filtro e por ser ajustável o seu formato de acordo com o desvio desejado. Enquanto que a janela Hamming destacou-se por melhor detectar as frequências, reduzindo as oscilações na resposta em frequência.
+  A Transformada de Fourier, a magnitude e o espectro de enrgia foram novamente calculados e mostrados abaixo.
+  
